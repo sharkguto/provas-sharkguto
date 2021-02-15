@@ -3,7 +3,7 @@ version: '3'
 services:
 
   db-postgres:
-    network_mode: host
+    #network_mode: host
     restart: on-failure
     build:
       context: .
@@ -24,7 +24,7 @@ services:
       retries: 10
 
   db-redis:
-    network_mode: host
+    #network_mode: host
     image: bitnami/redis:5.0
     #restart: always
     restart: on-failure
@@ -33,7 +33,7 @@ services:
     ports:
       - 6379:6379
     # entrypoint: redis-server --appendonly yes
-    volumes:
-      - ./devops/redis-persistence:/bitnami/redis/data
+    #volumes:
+    #  - ./devops/redis-persistence:/bitnami/redis/data
 
  
