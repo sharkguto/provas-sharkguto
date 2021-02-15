@@ -19,7 +19,7 @@ Olá caro candidato, meu nome é Gustavo, vulgo Jaspion, e atualmente atuo como 
 
 Os objetivos desse repositorio, alem de ter historico dos meus testes, e ser uma consulta publica dos desafios que vou criando ao longo dos anos, sendo revisado uma vez por ano, começando no ano de 2021.
 
-## Habilidades a serem avaliadas por perfil - 3+ anos Experiencia
+## Habilidades a serem avaliadas por perfil
 
 | perfil                 | conhecimentos requeridos                                                                                                                                                                                                        |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
