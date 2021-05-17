@@ -2,7 +2,7 @@
 
 ## Sobre mim
 
-Olá caro candidato, meu nome é Gustavo, vulgo Jaspion, e atualmente atuo como coordenador de TI, tendo vasta experiencia com infra-estrutura, cloud e desenvolvimento de software, com Python, por mais de 10 anos.
+Olá caro candidato, meu nome é Gustavo, vulgo Jaspion, e atualmente atuo como coordenador de TI, tendo vasta experiencia com infra-estrutura, cloud e desenvolvimento de software, com Python, por mais de 12 anos.
 
 ## Metodologia
 
