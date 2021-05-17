@@ -23,6 +23,20 @@ services:
       timeout: 10s
       retries: 10
 
+  websocketd:
+    restart: on-failure
+    build:
+      context: .
+      dockerfile: devops/Dockerfile
+    links: 
+      - db-postgres
+      - db-redis
+    ports:
+      - 5000:5000
+    environment: 
+      - REDIS_SERVER=db-redis
+      
+
   db-redis:
     #network_mode: host
     image: bitnami/redis:5.0
