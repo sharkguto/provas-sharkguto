@@ -25,3 +25,8 @@ Os objetivos desse repositorio, alem de ter historico dos meus testes, e ser uma
 | designer / estilização | - utilização de framework css (bulma \| bootstrap) <br> - prototipagem de wireframes com software (figma \| XD) <br> - CSS/SASS e BEM (block element modifier) <br> - prototipagem de aplicação hibrida/responsiva              |
 | backend                | - testes unitarios e coverage 90% + <br> - multi-threading / multi-processado / event loop <br> - utilização de banco relacional e não relacional <br> - tunning, profiling e teste de capacity <br> - utilização de containers |
 | multiplataforma        | - testes unitarios e coverage 70% + <br> - Criação de aplicações desktop multi-plataforma rodando em macOSx, Linux e windows <br> - Criação de aplicação mobile nativa multi-plataforma (felgo/flutter/kivy/WASM\*)             |
+
+## Provas
+
+- [frontend com websockets](./frontend-websockets/README.md)
+- [backend netcore pra desktop multiplataforma](./backend-netcore-desktop/README.md)
