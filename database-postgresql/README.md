@@ -1,6 +1,6 @@
 # Desafio SQL
 
-## Requisitos de utilização
+## Ajuda para utilização
 
 - docker
 - docker-compose
