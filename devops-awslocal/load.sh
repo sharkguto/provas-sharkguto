@@ -34,12 +34,18 @@ create_infra(){
 
     echo "criar filas"
     awslocal sqs create-queue --queue-name fila-arquivos
-    awslocal sqs create-queue --queue-name fila-arquivos-dlq
+    awslocal sqs create-queue --queue-name fila-arquivos-binarios
 
+    echo "dlq das filas criadas"
+    awslocal sqs create-queue --queue-name fila-arquivos-binarios-dlq
+    awslocal sqs create-queue --queue-name fila-arquivos-dlq
 
     echo "fazer a subscription das filas nos topicos"
 
-    echo "fazer o trigger dos arquivos que subirem nos buckets"
+    echo "fazer o trigger dos arquivos que subirem nos buckets para notificar os topicos"
+
+    echo "criar regras de filtro nos topicos de acordo com o nome do bucket"
+    echo "xml,json ->sns:topico-arquivos e txt,others->topico-validacao-binario"
 }
 
 create_infra()
