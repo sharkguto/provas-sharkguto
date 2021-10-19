@@ -17,3 +17,12 @@ upload: ./load.sh to s3://lab-others/load.sh
 download: s3://lab-others/load.sh to ./xpto.sh
 [gustavo@manjaro devops-awslocal]$
 ```
+
+## mandar msg e consumir na queue
+
+```bash
+awslocal sqs send-message --queue-url http://localhost:4566/000000000000/fila-arquivos --message-body "teste 123"
+
+awslocal sqs receive-message --queue-url http://localhost:4566/000000000000/fila-arquivos
+```
+
